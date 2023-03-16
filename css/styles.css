@@ -35,6 +35,10 @@ nav h1 {
 	top: 50%;
 }
 
+nav a {
+	text-decoration: none;
+}
+
 nav ul {
 	position: relative;
 	transform: translate(0, -50%);
