@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/game.css" />
+		<script src="js/index.js"></script>
+		<title>Game - Portfolio</title>
+	</head>
+
+	<body>
+		<nav>
+			<a href="index.html">
+				<h1>Portfolio</h1>
+			</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="game.html">Game</a></li>
+			</ul>
+
+			<button class="hamburger-menu" onclick="openHamburgerMenu(this)">
+				<div></div>
+				<div></div>
+				<div></div>
+			</button>
+		</nav>
+
+		<nav id="mobile-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="game.html">Game</a></li>
+			</ul>
+		</nav>
+
+		<h1 id="title" style="margin-top: 25px">Get to School 4</h1>
+
+		<iframe id="game" src="GetToSchool4/www/index.html" scrolling="no"></iframe>
+		<div id="iframe-bar" onclick="fullscreenGame(this)">
+			<img src="img/fullscreen.png" id="fullscreen-btn">
+		</div>
+
+		<footer>
+			<p>Made by Mason Gover</p>
+		</footer>
+
+	</body>
+
+</html>

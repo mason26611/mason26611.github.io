@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mason's Amazing Website</title>
-    </head>
-    <body>
-        <a href="GetToSchool4/www/index.html">Click here to play my game.</a>
-    </body>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<script src="js/index.js"></script>
+		<title>Home - Portfolio</title>
+	</head>
+
+	<body>
+		<nav>
+			<a href="index.html">
+				<h1>Portfolio</h1>
+			</a>
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="game.html">Game</a></li>
+			</ul>
+
+			<button class="hamburger-menu" onclick="openHamburgerMenu(this)">
+				<div></div>
+				<div></div>
+				<div></div>
+			</button>
+		</nav>
+
+		<nav id="mobile-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="game.html">Game</a></li>
+			</ul>
+		</nav>
+
+		<h1 id="title">Mason's Portfolio</h1>
+		<div id="introduction">
+			<p>My name is Mason, and I go to YorkTech to learn more in the I.T. field. I've always been interested in
+				computers and programming, which is why I've decided to go into I.T. at YorkTech.</p>
+		</div>
+		<h2 id="label-text">Achievements</h2>
+
+		<div id="flex-column">
+			<div class="portfolio-box">
+				<img src="img/html_banner.png" />
+				<h1>HTML & CSS</h1>
+				<p>I used HTML and CSS to create websites such as this one.</p>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="img/flowchart_banner.png" />
+				<h1>Flowcharts</h1>
+				<p>Flowcharts were used to visualize how code should run. This is useful for planning how to create
+					something before actually writing something.</p>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="img/rpg_maker_banner.png" />
+				<h1>RPG Maker</h1>
+				<p>I made a game in RPG Maker called Get To School 4 where the objective was to well, get to school. </p>
+			</div>
+		</div>
+
+		<footer>
+			<p>Made by Mason Gover</p>
+		</footer>
+
+	</body>
+
 </html>

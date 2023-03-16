@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/interests.css" />
+		<script src="js/index.js"></script>
+		<title>Interests - Portfolio</title>
+	</head>
+
+	<body>
+		<nav>
+			<a href="index.html">
+				<h1>Portfolio</h1>
+			</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<!-- <li><a>Achievements</a></li> -->
+				<li><a href="game.html">Game</a></li>
+			</ul>
+
+			<button class="hamburger-menu" onclick="openHamburgerMenu(this)">
+				<div></div>
+				<div></div>
+				<div></div>
+			</button>
+		</nav>
+
+		<nav id="mobile-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="game.html">Game</a></li>
+			</ul>
+		</nav>
+
+		<h1 id="title">Mason's Portfolio</h1>
+		<h2 id="label-text">Interests</h2>
+
+		<div id="flex-column">
+			<div class="portfolio-box">
+				<img src="img/programming_banner.png" />
+				<h1>Programming</h1>
+				<p>I've been interested in computer programming for years. I started with learning Lua, which I then moved
+					to JS/TS, some C#, and I've recently started learning C++ to learn more about how game engines work.</p>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="img/flappy_parrot_banner.png" />
+				<h1>Video Games & Game Dev</h1>
+				<p>I've also always enjoyed video games. My end goal in learning to program has always been to create my own
+					video games. The image above is of a basic flappy bird-like game I made in Unity for an art project in 8th grade.</p>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="img/godot_banner.png" />
+				<h1>Godot</h1>
+				<p>More recently, I've been looking into the Godot game engine because of its node system appearing more
+					interesting compared to other game engines.</p>
+			</div>
+		</div>
+
+		<footer>
+			<p>Made by Mason Gover</p>
+		</footer>
+
+	</body>
+
+</html>
